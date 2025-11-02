@@ -2,7 +2,7 @@
 Business Analytics Project — PostgreSQL (Northwind Dataset)
 📘 Overview
 
-This project explores business performance using SQL in PostgreSQL.
+# This project explores business performance using SQL in PostgreSQL.
 The dataset (Northwind) includes orders, products, customers, and shippers.
 I used SQL to extract insights on revenue, profit, and customer retention.
 
