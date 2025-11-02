@@ -6,7 +6,7 @@ This project explores business performance using SQL in PostgreSQL.
 The dataset (Northwind) includes orders, products, customers, and shippers.
 I used SQL to extract insights on revenue, profit, and customer retention.
 
-🧮 Key Analyses
+🧮 Key Analysis
 
 Monthly Revenue Trends
 
@@ -28,19 +28,27 @@ Power BI (for visualizations)
 
 Excel (for data review)
 
+
 📊 Sample SQL Snippet
-SELECT 
-    DATE_TRUNC('month', o.orderdate) AS month,
-    SUM(od.unitprice * od.quantity * (1 - od.discount)) AS total_revenue
-FROM orders o
-JOIN order_details od ON o.orderid = od.orderid
-GROUP BY month
-ORDER BY month;
 
-📈 Insights
+--CUSTOMER RFM--
 
-Revenue showed steady growth across months.
-
-Beverages category produced the highest profit margin.
-
-43% of customers made repeat purchases — a sign of strong loyalty.
+SELECT
+	C.CUSTOMER_ID,
+	C.COMPANY_NAME,
+	MAX(O.ORDER_DATE) AS LAST_ORDER_DATE,
+	COUNT(O.ORDER_ID) FREQUENCY,
+	ROUND(
+		SUM(OD.UNIT_PRICE * OD.QUANTITY * 1 - (OD.DISCOUNT))::NUMERIC,
+		2
+	) AS MONETARY_VALUE
+FROM
+	CUSTOMERS AS C
+	JOIN ORDERS AS O ON C.CUSTOMER_ID = O.CUSTOMER_ID
+	JOIN ORDER_DETAILS AS OD ON O.ORDER_ID = OD.ORDER_ID
+GROUP BY
+	C.CUSTOMER_ID,
+	COMPANY_NAME
+ORDER BY
+	MONETARY_VALUE DESC;
+    
