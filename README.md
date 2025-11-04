@@ -40,11 +40,11 @@ I focus on delivering clear visual stories backed by strong SQL logic and dashbo
 ---
 
 # 📬 Contact
-# If you’re interested in collaborating or hiring for data analytics work:
+If you’re interested in collaborating or hiring for data analytics work:
 - 💌 Reach out via LinkedIn or email  
 - 💼 I’m open to **remote**, **part-time**, and **freelance** data analyst opportunities.
 
 ---
 
-# ✨Thanks for visiting my portfolio! Scroll through the projects to see how I use data to uncover insights and drive decisions.
+✨**Thanks for visiting my portfolio! Scroll through the projects to see how I use data to uncover insights and drive decisions.**
 
