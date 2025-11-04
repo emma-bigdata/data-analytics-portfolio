@@ -14,15 +14,6 @@ Each project folder contains queries, visualizations, insights, and documentatio
 | Git & GitHub |
 
 
-
- 📁 Projects
-
-| Project | Description | Tools |
-
- [Northwind Analytics](./northwind_project/README.md) | Business performance insights from the Northwind dataset — includes sales trends, top products, and customer segmentation. | PostgreSQL, Power BI |
- Upcoming Project #2 | (To be added) Example: E-commerce sales dashboard, HR analytics, or Financial KPIs. | Power BI, SQL |
- Upcoming Project #3 | (To be added) Example: Customer churn prediction or Revenue forecasting. | PostgreSQL, Excel |
-
 ---
 
  📈 What You’ll Find
@@ -45,4 +36,15 @@ I focus on delivering clear visual stories backed by strong SQL logic and dashbo
 
 ---
 
-## 🗂️ Repository Structure
+
+---
+
+# 📬 Contact
+# If you’re interested in collaborating or hiring for data analytics work:
+- 💌 Reach out via LinkedIn or email  
+- 💼 I’m open to **remote**, **part-time**, and **freelance** data analyst opportunities.
+
+---
+
+# ✨Thanks for visiting my portfolio! Scroll through the projects to see how I use data to uncover insights and drive decisions.
+
